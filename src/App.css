@@ -13,12 +13,50 @@ body, .app {
 .list-books-title {
   padding: 10px 0;
   background: #2e7c31;
-  text-align: center;
+  width: 100%;
+  font-size: 22px;
 }
-.list-books-title h1 {
+.list-books-title div {
   font-weight: 400;
   margin: 0;
   color: white;
+  display:  inline;
+  margin: 4px;
+  padding: 4px;
+
+}
+
+.list-books-title #title {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  display:  inline;
+  margin: 4px;
+  padding: 4px;
+  font-weight:normal;
+  color:white;
+  letter-spacing:-2pt;
+  font-size:25px;
+  text-align:left;
+  font-family:arial black, sans-serif;
+  line-height:0;
+}
+
+.topbar-number {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    text-align: right;
+    width: 50%;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.topbar-number img
+{
+  position: relative;
+  top: 3px;
+  margin-left: 15px;
 }
 
 .list-books-content {
@@ -60,6 +98,10 @@ body, .app {
   background-size: 28px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-size: 0;
+}
+
+.topbar-icon {
+  color: red;
 }
 
 /* search page */
